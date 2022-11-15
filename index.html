@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <section id="header">
+        <div class="container">
+        <img src="images/logo.png" class="logo" alt="logo">
+        <div class="header-text">
+            <h1>Welcome to CuhSarthi <br>The purpose is to teach, bring learning to people</h1>
+            <span class="square"></span>
+            <p>This Website is purely designed for the fresher of the collages</p>
+            <button class="c-btn">Read More</button>
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+        </div>
+        </div>
+     </section>
+      
+     <nav id="sideNav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Hostel</a></li>
+        <li><a href="#">Canteen</a></li>
+        <li><a href="#">Beta</a></li>
+        <li><a href="#">PYQ</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+     </nav>
+    <img src="images/menu.png" id="menuBar" alt="menuBar">
+
+<!--Hostel-->
+<section class="hostel">
+    <h2>Hostel Provided by college</h2>
+    <p> <span>Here are some of the hostels provided by our college</span></p>
+    <div class="row">
+        <div class="hostel-section">
+            <h3>Block-1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Suscipit fuga ad dolores, qui dignissimos explicabo. </p>
+
+        </div>
+        <div class="hostel-section">
+            <h3>Block-2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Suscipit fuga ad dolores, qui dignissimos explicabo. </p>
+
+        </div>
+        <div class="hostel-section">
+            <h3>Block-3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Suscipit fuga ad dolores, qui dignissimos explicabo. </p>
+
+        </div>
+    </div>
+
+</section>
+
+
+  <section class="campus">
+    <h1> <span>Our Global campus</span> </h1>
+    <p> <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti voluptatem libero veniam molestiae nihil nostrum esse,
+         ullam, provident, consectetur vero assumenda et qui.Odit harum alias tempora possimus et.</span></p>
+         <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png" alt="">
+                <div class="layer">
+                    <h3>Haryana</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/london.png" alt="">
+                <div class="layer">
+                    <h3>Haryana</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/london.png" alt="">
+                <div class="layer">
+                    <h3>Haryana</h3>
+                </div>
+            </div>
+         </div>
+
+  </section>
+
+<!---Facilities-->
+<section class="facilities">
+    <h1> <span> Our facilities</span></h1>
+    <p> <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti voluptatem libero</span></p>
+     <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png" alt="">
+            <h3>world class liarary</h3>
+            <p> <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti voluptatem libero</span></p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png" alt="">
+            <h3>Largest Playground</h3>
+            <p> <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti voluptatem libero</span></p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png" alt="">
+            <h3>Tasty And Helthy Food</h3>
+            <p> <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti voluptatem libero</span></p>
+        </div>
+     </div>
+</section>
+
+<section class="testimonials">
+      <h1> <span> What College Student Says </span> </h1>
+      <p><span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti voluptatem libero</span></p>
+      <div class="row">
+        <div class="testimonials-col">
+            <img src="images/user1.jpg" alt="">
+            <div>
+                <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti voluptatem libero</span></p>
+                <h3>joya singh</h3>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="images/user2.jpg" alt="">
+            <div>
+                <p> <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti voluptatem libero </span></p>
+                <h3>vikas tirpati</h3>
+            </div>
+        </div>
+      </div>
+
+</section >
+
+<section class="cta">
+    <h1> Enrol for our various  <br> college Courses Anyhere</h1>
+    <a href="" class="c-btn">CONTACT US</a>
+
+</section>
+
+
+
+
+<!--JavaScript code for function-->
+
+  <script>
+    var menuBar = document.getElementById("menuBar");
+    var sideNav = document.getElementById("sideNav");
+    sideNav.style.right = "-250px";
+    menuBar.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+        }
+        else{
+            sideNav.style.right = "-250px";
+        }
+    }
+
+  </script>
+
+</body>
+</html>
